@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+  padding: 30px;
+  background: #fff7cc;
+}
+
+.players-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.player-card {
+  width: 220px;
+  background: #ffcc00;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.player-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.player-card h3 {
+  margin: 10px 0 5px;
+}
+
+.player-card span {
+  font-weight: bold;
+}
